@@ -1,4 +1,4 @@
-# Method to calculate Area of Circle. (Commit from remote repository)
+# Method to calculate Area of Circle. (Commit from remote repository. 2nd commit from local.)
 def area_of_circle(radius):
     '''
     Get  Area of circle for the given radius value.
@@ -13,4 +13,4 @@ def area_of_circle(radius):
 # execute code when file is run directly
 # code inside this block wont execute when imported.
 if __name__ == "__main__":
-    print("Running area_of_circle for radius as 100 --> ",area_of_circle(100))
+    print("Running area_of_circle for radius as 100 --> ",area_of_circle(1000))
