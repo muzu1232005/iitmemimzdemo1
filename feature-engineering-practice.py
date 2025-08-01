@@ -251,6 +251,8 @@ def feature_eng():
     plt.xlabel('t-SNE Dimension 1')
     plt.ylabel('t-SNE Dimension 2')
     plt.savefig('tsne_visualization.png')
+    
+    tsne_df.to_csv('tsne_results_bank_data.csv', index=False)
 
 
 if __name__ == "__main__":
